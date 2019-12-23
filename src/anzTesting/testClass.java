@@ -19,8 +19,8 @@ public class testClass {
 	WebDriver driver = new ChromeDriver();
 	//WebDriver driver = new FirefoxDriver();
 	String baseUrl = "https://digital.anz.co.nz/preauth/web/service/login";	
-	String Loginname = "82510091";
-	String Loginpassword = "Friday@97+25";
+	String Loginname = "your username";
+	String Loginpassword = "your password";
 	
 	
 	WebElement username = driver.findElement(By.id("user-id"));
